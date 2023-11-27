@@ -27,4 +27,5 @@ class Form1(Form1Template):
     wedges=self.check_box_9.checked
     flat=self.check_box_10.checked
     jewellery=self.check_box_11.checked
-    
+    anvil.server.call('submit',name=name,instagram=instagram,indian=indian,west=west,bugs=bugs,sun=sun,caps=caps,hair=hair,sneakers=sneakers,heels=heels,wedges=wedges,flat=flat,jewellery=jewellery)
+    Notification("your response is recorded")

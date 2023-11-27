@@ -65,7 +65,7 @@ components:
     type: Label
     layout_properties: {grid_position: 'SZJSRI,UHBKMJ'}
   - name: check_box_4
-    properties: {text: check_box_4}
+    properties: {text: 'yes'}
     type: CheckBox
     layout_properties: {grid_position: 'HYMRAL,BKXNGC'}
   - name: label_12
@@ -73,7 +73,7 @@ components:
     type: Label
     layout_properties: {grid_position: 'QUNMDK,SRVXKN'}
   - name: check_box_5
-    properties: {text: check_box_5}
+    properties: {text: 'yes'}
     type: CheckBox
     layout_properties: {grid_position: 'CCJOFN,TEMKKH'}
   - name: label_13
@@ -81,7 +81,7 @@ components:
     type: Label
     layout_properties: {grid_position: 'XWQBXF,XIFPYP'}
   - name: check_box_6
-    properties: {text: check_box_6}
+    properties: {text: 'yes'}
     type: CheckBox
     layout_properties: {grid_position: 'AMRCJH,OEGMHI'}
   - name: label_7

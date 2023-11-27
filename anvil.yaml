@@ -20,5 +20,38 @@ db_schema:
     - name: instagram
       admin_ui: {width: 200, order: 1}
       type: string
+    - name: indian
+      admin_ui: {width: 200, order: 2}
+      type: bool
+    - name: west
+      admin_ui: {width: 200, order: 3}
+      type: bool
+    - name: bugs
+      admin_ui: {width: 200, order: 4}
+      type: bool
+    - name: sun
+      admin_ui: {width: 200, order: 5}
+      type: bool
+    - name: caps
+      admin_ui: {width: 200, order: 6}
+      type: bool
+    - name: hair
+      admin_ui: {order: 7, width: 200}
+      type: bool
+    - name: sneakers
+      admin_ui: {width: 200, order: 8}
+      type: bool
+    - name: heels
+      admin_ui: {width: 200, order: 9}
+      type: bool
+    - name: wedges
+      admin_ui: {width: 200, order: 10}
+      type: bool
+    - name: flat
+      admin_ui: {width: 200, order: 11}
+      type: bool
+    - name: jewellery
+      admin_ui: {width: 200, order: 12}
+      type: bool
     title: facile
 renamed: true
