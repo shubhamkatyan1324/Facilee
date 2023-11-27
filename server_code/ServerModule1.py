@@ -15,3 +15,6 @@ import anvil.server
 #   print("Hello, " + name + "!")
 #   return 42
 #
+@anvil.server.callable
+def submit(name,instagram,indian,west,bugs,sun,caps,hair,sneakers,heels,wedges,flat,jewellery):
+  app_tables.facile.add_row(name=name,)
