@@ -92,6 +92,11 @@ components:
     properties: {text: Paintings}
     type: CheckBox
     layout_properties: {grid_position: 'SKGOLQ,LFVQOD'}
+  - name: button_1
+    properties: {text: SUBMIT, bold: true, background: 'theme:Primary Container'}
+    type: Button
+    layout_properties: {grid_position: 'XAKAHJ,BXHIBU'}
+    event_bindings: {click: button_1_click}
 - type: FlowPanel
   properties: {}
   name: navbar_links
