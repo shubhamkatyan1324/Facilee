@@ -7,8 +7,103 @@ components:
   properties: {col_widths: '{}'}
   name: content_panel
   layout_properties: {slot: default}
-  components: []
+  components:
+  - name: label_2
+    properties: {text: Enter your Name}
+    type: Label
+    layout_properties: {grid_position: 'FQPLER,TGMBQY'}
+  - name: text_box_1
+    properties: {placeholder: your name}
+    type: TextBox
+    layout_properties: {grid_position: 'IZOQFJ,JEWWUR'}
+  - name: label_3
+    properties: {text: Enter your Instagram handle}
+    type: Label
+    layout_properties: {grid_position: 'DHXRPR,NSEBID'}
+  - name: text_box_2
+    properties: {placeholder: your instagram handle}
+    type: TextBox
+    layout_properties: {grid_position: 'XWMRTZ,DILJCZ'}
+  - name: label_4
+    properties: {text: Product categories}
+    type: Label
+    layout_properties: {grid_position: 'BSUQEY,PGOVKE'}
+  - name: label_5
+    properties: {text: Clothing}
+    type: Label
+    layout_properties: {grid_position: 'KNSYXL,YWAALK'}
+  - name: check_box_1
+    properties: {text: women}
+    type: CheckBox
+    layout_properties: {grid_position: 'YDTXZB,MOWWFC'}
+  - name: check_box_2
+    properties: {text: Men}
+    type: CheckBox
+    layout_properties: {grid_position: 'PHORWH,NNWICX'}
+  - name: check_box_3
+    properties: {text: 'Indian '}
+    type: CheckBox
+    layout_properties: {grid_position: 'KBAASM,OWJMTV'}
+  - name: check_box_4
+    properties: {text: Western}
+    type: CheckBox
+    layout_properties: {grid_position: 'OOSGYH,NKISCM'}
+  - name: label_6
+    properties: {text: Accessories}
+    type: Label
+    layout_properties: {grid_position: 'ACZPRT,CLARRN'}
+  - name: check_box_5
+    properties: {text: Bugs}
+    type: CheckBox
+    layout_properties: {grid_position: 'RBQHUJ,KYUCKA'}
+  - name: check_box_6
+    properties: {text: Sunglasses}
+    type: CheckBox
+    layout_properties: {grid_position: 'IXSYWE,YEMXEM'}
+  - name: check_box_7
+    properties: {text: caps}
+    type: CheckBox
+    layout_properties: {grid_position: 'JZPNUJ,GPJEMS'}
+  - name: check_box_8
+    properties: {text: Hair}
+    type: CheckBox
+    layout_properties: {grid_position: 'ADRHFJ,OQBUUZ'}
+  - name: label_7
+    properties: {text: Jewellery}
+    type: Label
+    layout_properties: {grid_position: 'LDISFT,UEMIKX'}
+  - name: check_box_9
+    properties: {text: 'yes'}
+    type: CheckBox
+    layout_properties: {grid_position: 'GZOCMG,EMDUVN'}
+  - name: label_8
+    properties: {text: 'Arts '}
+    type: Label
+    layout_properties: {grid_position: 'GFRFIE,JZHSCB'}
+  - name: check_box_10
+    properties: {text: Stationery}
+    type: CheckBox
+    layout_properties: {grid_position: 'EMSMIF,XNWKPG'}
+  - name: check_box_11
+    properties: {text: Gifts}
+    type: CheckBox
+    layout_properties: {grid_position: 'OTYNNH,QSYABJ'}
+  - name: check_box_12
+    properties: {text: Paintings}
+    type: CheckBox
+    layout_properties: {grid_position: 'SKGOLQ,LFVQOD'}
 - type: FlowPanel
   properties: {}
   name: navbar_links
   layout_properties: {slot: nav-right}
+  components:
+  - name: link_1
+    properties: {text: About}
+    type: Link
+    layout_properties: {}
+- name: label_1
+  properties: {role: display, border: '', foreground: 'theme:On Primary', text: Facile,
+    font_size: 40, spacing_above: none, spacing_below: medium, italic: true, background: 'theme:Tertiary',
+    bold: false, underline: false}
+  type: Label
+  layout_properties: {slot: title}
