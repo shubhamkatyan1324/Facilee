@@ -16,16 +16,16 @@ class Form1(Form1Template):
     """This method is called when the button is clicked"""
     name=self.text_box_1.text
     instagram=self.text_box_2.text
-    indian=self.check_box_1.checked
-    west=self.check_box_2.checked
-    bugs=self.check_box_3.checked
-    sun=self.check_box_4.checked
-    caps=self.check_box_5.checked
-    hair=self.check_box_6.checked
-    sneakers=self.check_box_7.checked
-    heels=self.check_box_8.checked
-    wedges=self.check_box_9.checked
-    flat=self.check_box_10.checked
-    jewellery=self.check_box_11.checked
+    indian=self.check_box_1.text
+    west=self.check_box_2.text
+    bugs=self.check_box_3.text
+    sun=self.check_box_4.text
+    caps=self.check_box_5.text
+    hair=self.check_box_6.text
+    sneakers=self.check_box_7.text
+    heels=self.check_box_8.text
+    wedges=self.check_box_9.text
+    flat=self.check_box_10.text
+    jewellery=self.check_box_11.text
     anvil.server.call('submit',name=name,instagram=instagram,indian=indian,west=west,bugs=bugs,sun=sun,caps=caps,hair=hair,sneakers=sneakers,heels=heels,wedges=wedges,flat=flat,jewellery=jewellery)
     Notification("your response is recorded")
