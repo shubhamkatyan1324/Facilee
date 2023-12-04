@@ -82,17 +82,18 @@ class Form1(Form1Template):
     """This method is called when the button is clicked"""
     name = self.text_box_1.text
     instagramHandle = self.text_box_2.text
-    Home = self.drop_down_1.selected_value
+    home = self.drop_down_1.selected_value
     phone = self.drop_down_2.selected_value
     jewellery = self.drop_down_3.selected_value
-    Beauty = self.drop_down_4.selected_value
+    beauty = self.drop_down_4.selected_value
     accessories = self.drop_down_5.selected_value
     footwear = self.drop_down_6.selected_value
     clothing = self.drop_down_7.selected_value
     arts = self.drop_down_8.selected_value
-    sports = self.che
-    
-    
+    sports = self.check_box_1.checked
+    anime = self.check_box_2.checked
+    anvil.server.call('submit' , name=name,instagramHandle=instagramHandle,home=home,phone=phone,jewellery=jewellery,beauty=beauty,accessories=accessories,footwear=footwear,clothing=clothing,arts=arts,sports=sports,anime=anime)
+    Notification("your Response has been recorded ").show()
     
 
  
