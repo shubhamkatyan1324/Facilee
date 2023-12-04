@@ -16,6 +16,6 @@ import anvil.server
 #   return 42
 #
 @anvil.server.callable
-def submit(name,instagram,indian,west,bugs,sun,caps,hair,sneakers,heels,wedges,flat,jewellery):
-  app_tables.facile.add_row(name=name,instagram=instagram,indian=indian,west=west,bugs=bugs,sun=sun,caps=caps,hair=hair,sneakers=sneakers,heels=heels,wedges=wedges,flat=flat,jewellery=jewellery)
-  
+def submit(name,instagramHandle):
+
+  pass

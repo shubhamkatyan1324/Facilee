@@ -29,105 +29,104 @@ components:
     type: Label
     layout_properties: {grid_position: 'BSUQEY,PGOVKE'}
   - name: label_5
-    properties: {text: Clothing, bold: true}
+    properties: {text: Home, font: georgia}
     type: Label
-    layout_properties: {grid_position: 'KNSYXL,YWAALK'}
+    layout_properties: {grid_position: 'CMWWNE,FQNNCF'}
+  - name: drop_down_1
+    properties:
+      items: [Bath and Body, Decor, Bedding, Kitchen]
+      include_placeholder: false
+    type: DropDown
+    layout_properties: {grid_position: 'NVIKGV,IOZAGN'}
+    event_bindings: {change: drop_down_1_change}
+  - name: label_6
+    properties: {text: Phone}
+    type: Label
+    layout_properties: {grid_position: 'DNWKMS,XKYJMF'}
+  - name: drop_down_2
+    properties:
+      items: [Cases, Charms, '']
+    type: DropDown
+    layout_properties: {grid_position: 'FHPIBT,ZNCQWA'}
+    event_bindings: {change: drop_down_2_change}
+  - name: label_7
+    properties: {text: Jewellery}
+    type: Label
+    layout_properties: {grid_position: 'HAFFXR,SDPDGZ'}
+  - name: drop_down_3
+    properties:
+      items: [Women Ethnic, Women Western, Men]
+    type: DropDown
+    layout_properties: {grid_position: 'QNRUJE,AOKODD'}
+    event_bindings: {change: drop_down_3_change}
   - name: label_8
-    properties: {text: Indian, font: georgia}
+    properties: {text: Beauty}
     type: Label
-    layout_properties: {grid_position: 'HRLJPT,JMPIAD'}
+    layout_properties: {grid_position: 'NXPXNM,IDBAGD'}
+  - name: drop_down_4
+    properties:
+      items: [Cosmetics, Skin, Haircare, Fragrances]
+    type: DropDown
+    layout_properties: {grid_position: 'FKKLDG,XCAXSQ'}
+    event_bindings: {change: drop_down_4_change}
+  - name: label_9
+    properties: {text: Accessories}
+    type: Label
+    layout_properties: {grid_position: 'MVBOTI,WZEHPT'}
+  - name: drop_down_5
+    properties:
+      items: [Bags, Sunglasses, Hair, Caps & Gloves]
+    type: DropDown
+    layout_properties: {grid_position: 'CHDNIQ,SHTVYM'}
+    event_bindings: {change: drop_down_5_change}
+  - name: label_10
+    properties: {text: Footwear}
+    type: Label
+    layout_properties: {grid_position: 'HBEMBE,MCZPUR'}
+  - name: drop_down_6
+    properties:
+      items: ['Women ', Men]
+    type: DropDown
+    layout_properties: {grid_position: 'JFYFOP,PTDOBN'}
+    event_bindings: {change: drop_down_6_change}
+  - name: label_11
+    properties: {text: Clothing}
+    type: Label
+    layout_properties: {grid_position: 'RSPJLY,TPOSIK'}
+  - name: drop_down_7
+    properties:
+      items: [Women Western, Women Ethnic, Menswear, Kids]
+    type: DropDown
+    layout_properties: {grid_position: 'WQQOXO,RDVQHS'}
+    event_bindings: {change: drop_down_7_change}
+  - name: label_12
+    properties: {text: Arts}
+    type: Label
+    layout_properties: {grid_position: 'DBQKEL,ZXAMZT'}
+  - name: drop_down_8
+    properties:
+      items: [Stationery, Gifting, Paintings, Ceramics, Craft]
+    type: DropDown
+    layout_properties: {grid_position: 'RGXFYM,ASAJNA'}
+    event_bindings: {change: drop_down_8_change}
+  - name: label_13
+    properties: {text: Sports}
+    type: Label
+    layout_properties: {grid_position: 'WLIKTZ,PDCCCC'}
   - name: check_box_1
     properties: {text: 'yes'}
     type: CheckBox
-    layout_properties: {grid_position: 'UPHZCG,CWLXDK'}
-  - name: label_9
-    properties: {text: Western, font: georgia}
+    layout_properties: {grid_position: 'LIJHTO,QTKCJN'}
+    event_bindings: {change: check_box_1_change}
+  - name: label_14
+    properties: {text: Anime}
     type: Label
-    layout_properties: {grid_position: 'SHSMGP,YNQADA'}
+    layout_properties: {grid_position: 'ZWFVFW,HKYMWS'}
   - name: check_box_2
     properties: {text: 'yes'}
     type: CheckBox
-    layout_properties: {grid_position: 'KHANBR,WNVECO'}
-  - name: label_6
-    properties: {text: Accessories, bold: true}
-    type: Label
-    layout_properties: {grid_position: 'ACZPRT,CLARRN'}
-  - name: label_10
-    properties: {text: Bugs, font: georgia}
-    type: Label
-    layout_properties: {grid_position: 'RIVHUG,MJQCPX'}
-  - name: check_box_3
-    properties: {text: 'yes'}
-    type: CheckBox
-    layout_properties: {grid_position: 'HWMRVO,ZRHRLU'}
-  - name: label_11
-    properties: {text: sunglasses, font: georgia}
-    type: Label
-    layout_properties: {grid_position: 'SZJSRI,UHBKMJ'}
-  - name: check_box_4
-    properties: {text: 'yes'}
-    type: CheckBox
-    layout_properties: {grid_position: 'HYMRAL,BKXNGC'}
-  - name: label_12
-    properties: {text: caps, font: georgia}
-    type: Label
-    layout_properties: {grid_position: 'QUNMDK,SRVXKN'}
-  - name: check_box_5
-    properties: {text: 'yes'}
-    type: CheckBox
-    layout_properties: {grid_position: 'CCJOFN,TEMKKH'}
-  - name: label_13
-    properties: {text: Hair, font: georgia}
-    type: Label
-    layout_properties: {grid_position: 'XWQBXF,XIFPYP'}
-  - name: check_box_6
-    properties: {text: 'yes'}
-    type: CheckBox
-    layout_properties: {grid_position: 'AMRCJH,OEGMHI'}
-  - name: label_7
-    properties: {text: Footwear, bold: true}
-    type: Label
-    layout_properties: {grid_position: 'LDISFT,UEMIKX'}
-  - name: label_14
-    properties: {text: Sneakers, font: georgia}
-    type: Label
-    layout_properties: {grid_position: 'FWKJJU,KISHNB'}
-  - name: check_box_7
-    properties: {text: 'yes'}
-    type: CheckBox
-    layout_properties: {grid_position: 'PMISDH,LFRWZR'}
-  - name: label_15
-    properties: {text: Heels, font: georgia}
-    type: Label
-    layout_properties: {grid_position: 'VAURVG,MEYUIJ'}
-  - name: check_box_8
-    properties: {text: 'yes'}
-    type: CheckBox
-    layout_properties: {grid_position: 'XPQXXY,TUZATI'}
-  - name: label_16
-    properties: {text: Wedges, font: georgia}
-    type: Label
-    layout_properties: {grid_position: 'LQHRIH,ALFVII'}
-  - name: check_box_9
-    properties: {text: 'yes'}
-    type: CheckBox
-    layout_properties: {grid_position: 'GKGSIA,YOBWEC'}
-  - name: label_17
-    properties: {text: Flat, font: georgia}
-    type: Label
-    layout_properties: {grid_position: 'FDGIYE,ZXUDUH'}
-  - name: check_box_10
-    properties: {text: 'yes'}
-    type: CheckBox
-    layout_properties: {grid_position: 'AVLZPA,WXCDVE'}
-  - name: label_18
-    properties: {text: Jewellery, bold: true}
-    type: Label
-    layout_properties: {grid_position: 'GLCBZO,ACTNEF'}
-  - name: check_box_11
-    properties: {text: 'yes'}
-    type: CheckBox
-    layout_properties: {grid_position: 'JMSLOX,UEEHKL'}
+    layout_properties: {grid_position: 'YFHXFH,ERMGOR'}
+    event_bindings: {change: check_box_2_change}
   - name: button_1
     properties: {text: SUBMIT, bold: true, background: 'theme:Primary Container'}
     type: Button
@@ -144,9 +143,9 @@ components:
     layout_properties: {}
 - name: label_1
   properties: {role: display, align: center, tooltip: '', border: '', foreground: 'theme:On
-      Primary', visible: true, text: Facile, font_size: 40, font: homemade apple,
+      Primary', visible: true, text: facile, font_size: 40, font: homemade apple,
     spacing_above: none, icon_align: left, spacing_below: medium, italic: true, background: 'theme:Tertiary',
-    bold: false, underline: false, icon: ''}
+    bold: true, underline: false, icon: ''}
   type: Label
   layout_properties: {slot: title}
   data_bindings: []
