@@ -13,7 +13,7 @@ components:
     type: Label
     layout_properties: {grid_position: 'FQPLER,TGMBQY'}
   - name: text_box_1
-    properties: {placeholder: your name}
+    properties: {placeholder: '', background: '', visible: true}
     type: TextBox
     layout_properties: {grid_position: 'IZOQFJ,JEWWUR'}
   - name: label_3
@@ -21,7 +21,7 @@ components:
     type: Label
     layout_properties: {grid_position: 'DHXRPR,NSEBID'}
   - name: text_box_2
-    properties: {placeholder: your instagram handle}
+    properties: {placeholder: '', visible: true}
     type: TextBox
     layout_properties: {grid_position: 'XWMRTZ,DILJCZ'}
   - name: label_4
@@ -34,7 +34,7 @@ components:
     layout_properties: {grid_position: 'CMWWNE,FQNNCF'}
   - name: drop_down_1
     properties:
-      items: [None, Bath and Body, Decor, Bedding, Kitchen]
+      items: [None, BATH & BODY, DECOR, BEDDING, KITCHEN]
       include_placeholder: false
     type: DropDown
     layout_properties: {grid_position: 'NVIKGV,IOZAGN'}
@@ -45,7 +45,7 @@ components:
     layout_properties: {grid_position: 'DNWKMS,XKYJMF'}
   - name: drop_down_2
     properties:
-      items: [None, Cases, Charms, '']
+      items: [None, CASES, CHARMS, '']
     type: DropDown
     layout_properties: {grid_position: 'FHPIBT,ZNCQWA'}
     event_bindings: {change: drop_down_2_change}
@@ -55,7 +55,7 @@ components:
     layout_properties: {grid_position: 'HAFFXR,SDPDGZ'}
   - name: drop_down_3
     properties:
-      items: [None, Women Ethnic, Women Western, Men]
+      items: [None, WOMEN ETHNIC, WOMEN WESTERN, MEN]
     type: DropDown
     layout_properties: {grid_position: 'QNRUJE,AOKODD'}
     event_bindings: {change: drop_down_3_change}
@@ -65,7 +65,7 @@ components:
     layout_properties: {grid_position: 'NXPXNM,IDBAGD'}
   - name: drop_down_4
     properties:
-      items: [None, Cosmetics, Skin, Haircare, Fragrances]
+      items: [None, COSMETICS, SKIN, HAIRCARE, FRAGRANCES]
     type: DropDown
     layout_properties: {grid_position: 'FKKLDG,XCAXSQ'}
     event_bindings: {change: drop_down_4_change}
@@ -75,7 +75,7 @@ components:
     layout_properties: {grid_position: 'MVBOTI,WZEHPT'}
   - name: drop_down_5
     properties:
-      items: [None, Bags, Sunglasses, Hair, Caps & Gloves]
+      items: [None, BAGS, SUNGLASSES, HAIR, CAPS & GLOVES]
     type: DropDown
     layout_properties: {grid_position: 'CHDNIQ,SHTVYM'}
     event_bindings: {change: drop_down_5_change}
@@ -85,7 +85,7 @@ components:
     layout_properties: {grid_position: 'HBEMBE,MCZPUR'}
   - name: drop_down_6
     properties:
-      items: [None, 'Women ', Men]
+      items: [None, WOMEN, MEN]
     type: DropDown
     layout_properties: {grid_position: 'JFYFOP,PTDOBN'}
     event_bindings: {change: drop_down_6_change}
@@ -95,7 +95,7 @@ components:
     layout_properties: {grid_position: 'RSPJLY,TPOSIK'}
   - name: drop_down_7
     properties:
-      items: [None, Women Western, Women Ethnic, Menswear, Kids]
+      items: [None, WOMEN WESTERN, WOMEN ETHNIC, MENSWEAR, KIDS]
     type: DropDown
     layout_properties: {grid_position: 'WQQOXO,RDVQHS'}
     event_bindings: {change: drop_down_7_change}
@@ -105,7 +105,7 @@ components:
     layout_properties: {grid_position: 'DBQKEL,ZXAMZT'}
   - name: drop_down_8
     properties:
-      items: [None, Stationery, Gifting, Paintings, Ceramics, Craft]
+      items: [None, STATIONERY, GIFTING, PAINTINGS, CERAMICS, CRAFT]
     type: DropDown
     layout_properties: {grid_position: 'RGXFYM,ASAJNA'}
     event_bindings: {change: drop_down_8_change}
