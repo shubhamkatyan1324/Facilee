@@ -8,6 +8,10 @@ components:
   name: content_panel
   layout_properties: {slot: default}
   components:
+  - name: image_1
+    properties: {source: _/theme/logo.png, height: 19.399993896484375, display_mode: original_size}
+    type: Image
+    layout_properties: {grid_position: 'XTMCYK,NPMUFE'}
   - name: label_2
     properties: {text: Enter your Name, font: Georgia}
     type: Label
@@ -141,8 +145,3 @@ components:
     properties: {text: About}
     type: Link
     layout_properties: {}
-- name: image_1
-  properties: {source: _/theme/WhatsApp Image 2023-12-04 at 23.38.25_77676d7c.jpg,
-    height: 111.60000610351562, spacing_below: small, display_mode: fill_width}
-  type: Image
-  layout_properties: {slot: title}
