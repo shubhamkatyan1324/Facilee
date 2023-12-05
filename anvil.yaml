@@ -10,21 +10,6 @@ runtime_options: {version: 2, client_version: '3', server_version: python3-sandb
   server_spec: null}
 startup_form: Form1
 db_schema:
-  facilesellerdata:
-    client: none
-    server: full
-    columns:
-    - name: Name
-      admin_ui: {width: 200, order: 0}
-      type: string
-    - name: Instagram handle
-      admin_ui: {width: 200, order: 1}
-      type: string
-    - name: Home
-      admin_ui: {width: 200, order: 2}
-      type: link_single
-      target: facilesellerdata
-    title: Facilesellerdata
   table_1:
     title: Table 1
     client: none

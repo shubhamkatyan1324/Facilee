@@ -8,28 +8,42 @@ components:
   name: content_panel
   layout_properties: {slot: default}
   components:
-  - name: label_2
-    properties: {text: Enter your Name, font: georigia, bold: true}
+  - name: image_1
+    properties: {source: _/theme/facile logo.png, height: 67.19998168945312, display_mode: shrink_to_fit,
+      horizontal_align: left, vertical_align: center, spacing_below: small}
+    type: Image
+    layout_properties: {grid_position: 'PQFFFA,AORGOL'}
+  - name: label_1
+    properties: {text: "\"connecting social ventures\"                           \
+        \                    \n  ", italic: true, font: homemade apple, bold: true,
+      icon_align: left_edge, font_size: 18, background: 'theme:On Primary', spacing_below: none}
     type: Label
-    layout_properties: {grid_position: 'VSQQFG,BOEDPA'}
+    layout_properties: {grid_position: 'JUQNCW,OAWBFR'}
+  - name: label_2
+    properties: {text: Enter your Name, font: Georgia, bold: true, border: '', italic: false}
+    type: Label
+    layout_properties: {grid_position: 'CKMWWG,MIEBFC'}
+    data_bindings: []
   - name: text_box_1
     properties: {placeholder: '', background: '', visible: true}
     type: TextBox
-    layout_properties: {grid_position: 'KNWQQN,UJJGCC'}
+    layout_properties: {grid_position: 'VOLKXM,QLEXYJ'}
   - name: label_3
     properties: {text: Enter your Instagram handle, font: Georgia, bold: true}
     type: Label
-    layout_properties: {grid_position: 'DHXRPR,NSEBID'}
+    layout_properties: {grid_position: 'IWCXJI,LJVAPM'}
   - name: text_box_2
     properties: {placeholder: '', visible: true}
     type: TextBox
-    layout_properties: {grid_position: 'XWMRTZ,DILJCZ'}
+    layout_properties: {grid_position: 'DSYKMR,WZOTLC'}
   - name: label_4
-    properties: {text: Product categories, align: center, bold: true}
+    properties: {text: PRODUCT CATEGORIES, align: center, bold: true, font: GEORGIA,
+      italic: false, underline: false}
     type: Label
-    layout_properties: {grid_position: 'BSUQEY,PGOVKE'}
+    layout_properties: {grid_position: 'KCDDUS,UQUINX', row_background: 'theme:On
+        Primary'}
   - name: label_5
-    properties: {text: Home, font: georgia}
+    properties: {text: Home, font: georgia, bold: true}
     type: Label
     layout_properties: {grid_position: 'CMWWNE,FQNNCF'}
   - name: drop_down_1
@@ -40,7 +54,7 @@ components:
     layout_properties: {grid_position: 'NVIKGV,IOZAGN'}
     event_bindings: {change: drop_down_1_change}
   - name: label_6
-    properties: {text: Phone}
+    properties: {text: Phone, bold: true}
     type: Label
     layout_properties: {grid_position: 'DNWKMS,XKYJMF'}
   - name: drop_down_2
@@ -50,7 +64,7 @@ components:
     layout_properties: {grid_position: 'FHPIBT,ZNCQWA'}
     event_bindings: {change: drop_down_2_change}
   - name: label_7
-    properties: {text: Jewellery}
+    properties: {text: Jewellery, bold: true}
     type: Label
     layout_properties: {grid_position: 'HAFFXR,SDPDGZ'}
   - name: drop_down_3
@@ -60,7 +74,7 @@ components:
     layout_properties: {grid_position: 'QNRUJE,AOKODD'}
     event_bindings: {change: drop_down_3_change}
   - name: label_8
-    properties: {text: Beauty}
+    properties: {text: Beauty, bold: true}
     type: Label
     layout_properties: {grid_position: 'NXPXNM,IDBAGD'}
   - name: drop_down_4
@@ -70,7 +84,7 @@ components:
     layout_properties: {grid_position: 'FKKLDG,XCAXSQ'}
     event_bindings: {change: drop_down_4_change}
   - name: label_9
-    properties: {text: Accessories}
+    properties: {text: Accessories, bold: true}
     type: Label
     layout_properties: {grid_position: 'MVBOTI,WZEHPT'}
   - name: drop_down_5
@@ -80,7 +94,7 @@ components:
     layout_properties: {grid_position: 'CHDNIQ,SHTVYM'}
     event_bindings: {change: drop_down_5_change}
   - name: label_10
-    properties: {text: Footwear}
+    properties: {text: Footwear, bold: true}
     type: Label
     layout_properties: {grid_position: 'HBEMBE,MCZPUR'}
   - name: drop_down_6
@@ -90,7 +104,7 @@ components:
     layout_properties: {grid_position: 'JFYFOP,PTDOBN'}
     event_bindings: {change: drop_down_6_change}
   - name: label_11
-    properties: {text: Clothing}
+    properties: {text: Clothing, bold: true}
     type: Label
     layout_properties: {grid_position: 'RSPJLY,TPOSIK'}
   - name: drop_down_7
@@ -100,7 +114,7 @@ components:
     layout_properties: {grid_position: 'WQQOXO,RDVQHS'}
     event_bindings: {change: drop_down_7_change}
   - name: label_12
-    properties: {text: Arts}
+    properties: {text: Arts, bold: true}
     type: Label
     layout_properties: {grid_position: 'DBQKEL,ZXAMZT'}
   - name: drop_down_8
@@ -110,7 +124,7 @@ components:
     layout_properties: {grid_position: 'RGXFYM,ASAJNA'}
     event_bindings: {change: drop_down_8_change}
   - name: label_13
-    properties: {text: Sports}
+    properties: {text: Sports, bold: true}
     type: Label
     layout_properties: {grid_position: 'WLIKTZ,PDCCCC'}
   - name: check_box_1
@@ -119,7 +133,7 @@ components:
     layout_properties: {grid_position: 'LIJHTO,QTKCJN'}
     event_bindings: {change: check_box_1_change}
   - name: label_14
-    properties: {text: Anime}
+    properties: {text: Anime, bold: true}
     type: Label
     layout_properties: {grid_position: 'ZWFVFW,HKYMWS'}
   - name: check_box_2
@@ -132,12 +146,3 @@ components:
     type: Button
     layout_properties: {grid_position: 'XAKAHJ,BXHIBU'}
     event_bindings: {click: button_1_click}
-- type: FlowPanel
-  properties: {}
-  name: navbar_links
-  layout_properties: {slot: nav-right}
-  components: []
-- name: image_1
-  properties: {source: _/theme/facile logo.png, height: 67.19998168945312}
-  type: Image
-  layout_properties: {slot: title}

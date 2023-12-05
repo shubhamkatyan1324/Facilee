@@ -32,11 +32,11 @@ class Form1(Form1Template):
 
   def drop_down_1_change(self, **event_args):
     """This method is called when an item is selected"""
-    alert('You selected the category ' + self.drop_down_1.selected_value)
+    alert('You selected ' + self.drop_down_1.selected_value)
 
   def drop_down_2_change(self, **event_args):
     """This method is called when an item is selected"""
-    alert('You selected the category ' + self.drop_down_2.selected_value )
+    alert('You selected ' + self.drop_down_2.selected_value )
 
   def drop_down_3_change(self, **event_args):
     """This method is called when an item is selected"""
@@ -52,7 +52,7 @@ class Form1(Form1Template):
 
   def drop_down_6_change(self, **event_args):
     """This method is called when an item is selected"""
-    alert('You selected' + self.drop_down_6.selected_value)
+    alert('You selected ' + self.drop_down_6.selected_value)
 
   def drop_down_7_change(self, **event_args):
     """This method is called when an item is selected"""
@@ -76,7 +76,7 @@ class Form1(Form1Template):
 
   def check_box_2_change(self, **event_args):
     """This method is called when this checkbox is checked or unchecked"""
-    alert('You selected Anime ')
+    alert('You selected Anime')
 
   def button_1_click(self, **event_args):
     """This method is called when the button is clicked"""
