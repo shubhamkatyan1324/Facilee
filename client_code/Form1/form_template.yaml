@@ -49,8 +49,8 @@ components:
     type: TextBox
     layout_properties: {grid_position: 'XTSBSQ,XIMIJJ'}
   - name: label_4
-    properties: {text: PRODUCT CATEGORIES, align: center, bold: true, font: '', italic: false,
-      underline: false}
+    properties: {text: PRODUCT CATEGORIES, align: center, bold: true, font: georgia,
+      italic: false, underline: false}
     type: Label
     layout_properties: {grid_position: 'KCDDUS,UQUINX', row_background: 'theme:On
         Primary'}
