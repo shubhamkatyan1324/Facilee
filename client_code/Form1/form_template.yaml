@@ -15,27 +15,39 @@ components:
     layout_properties: {grid_position: 'PQFFFA,AORGOL'}
   - name: label_1
     properties: {text: "'CONNECTING SOCIAL VENTURES'                             \
-        \                  \n  ", italic: false, font: Trebuchet MS, bold: true, icon_align: left_edge,
-      font_size: 18, background: 'theme:On Primary', spacing_below: none}
+        \                  \n  ", font_size: 18, font: Trebuchet MS, spacing_above: small,
+      icon_align: left_edge, spacing_below: none, italic: false, background: 'theme:On
+        Primary', bold: true}
     type: Label
     layout_properties: {grid_position: 'JUQNCW,OAWBFR'}
   - name: label_2
-    properties: {text: Enter your Name, font: '', bold: true, border: '', italic: false}
+    properties: {text: Brand Name, font: '', bold: true, border: '', italic: false}
     type: Label
     layout_properties: {grid_position: 'CKMWWG,MIEBFC'}
     data_bindings: []
   - name: text_box_1
-    properties: {placeholder: '', background: '', visible: true}
+    properties: {placeholder: '', background: 'theme:Dark Overlay 1', visible: true,
+      spacing_above: small, border: '', foreground: ''}
     type: TextBox
     layout_properties: {grid_position: 'VOLKXM,QLEXYJ'}
   - name: label_3
-    properties: {text: Enter your Instagram handle, font: '', bold: true}
+    properties: {text: Your Social handle, font: '', bold: true}
     type: Label
     layout_properties: {grid_position: 'IWCXJI,LJVAPM'}
   - name: text_box_2
-    properties: {placeholder: '', visible: true}
+    properties: {placeholder: '', visible: true, background: 'theme:Dark Overlay 1',
+      foreground: ''}
     type: TextBox
     layout_properties: {grid_position: 'DSYKMR,WZOTLC'}
+    event_bindings: {pressed_enter: text_box_2_pressed_enter}
+  - name: label_15
+    properties: {text: Email, bold: true}
+    type: Label
+    layout_properties: {grid_position: 'XPMGOB,RFYFSM'}
+  - name: text_box_3
+    properties: {background: 'theme:Dark Overlay 1', foreground: ''}
+    type: TextBox
+    layout_properties: {grid_position: 'XTSBSQ,XIMIJJ'}
   - name: label_4
     properties: {text: PRODUCT CATEGORIES, align: center, bold: true, font: '', italic: false,
       underline: false}
@@ -50,6 +62,8 @@ components:
     properties:
       items: [None, BATH & BODY, DECOR, BEDDING, KITCHEN]
       include_placeholder: false
+      background: theme:Dark Overlay 1
+      foreground: theme:Dark Overlay 2
     type: DropDown
     layout_properties: {grid_position: 'NVIKGV,IOZAGN'}
     event_bindings: {change: drop_down_1_change}
@@ -60,6 +74,8 @@ components:
   - name: drop_down_2
     properties:
       items: [None, CASES, CHARMS, '']
+      foreground: theme:Dark Overlay 2
+      background: theme:Dark Overlay 2
     type: DropDown
     layout_properties: {grid_position: 'FHPIBT,ZNCQWA'}
     event_bindings: {change: drop_down_2_change}
@@ -70,6 +86,8 @@ components:
   - name: drop_down_3
     properties:
       items: [None, WOMEN ETHNIC, WOMEN WESTERN, MEN]
+      background: theme:Dark Overlay 1
+      foreground: theme:Dark Overlay 2
     type: DropDown
     layout_properties: {grid_position: 'QNRUJE,AOKODD'}
     event_bindings: {change: drop_down_3_change}
@@ -80,6 +98,8 @@ components:
   - name: drop_down_4
     properties:
       items: [None, COSMETICS, SKIN, HAIRCARE, FRAGRANCES]
+      foreground: theme:Dark Overlay 2
+      background: theme:Dark Overlay 1
     type: DropDown
     layout_properties: {grid_position: 'FKKLDG,XCAXSQ'}
     event_bindings: {change: drop_down_4_change}
@@ -90,6 +110,8 @@ components:
   - name: drop_down_5
     properties:
       items: [None, BAGS, SUNGLASSES, HAIR, CAPS & GLOVES]
+      background: theme:Dark Overlay 1
+      foreground: theme:Dark Overlay 2
     type: DropDown
     layout_properties: {grid_position: 'CHDNIQ,SHTVYM'}
     event_bindings: {change: drop_down_5_change}
@@ -100,6 +122,8 @@ components:
   - name: drop_down_6
     properties:
       items: [None, WOMEN, MEN]
+      foreground: theme:Dark Overlay 2
+      background: theme:Dark Overlay 1
     type: DropDown
     layout_properties: {grid_position: 'JFYFOP,PTDOBN'}
     event_bindings: {change: drop_down_6_change}
@@ -110,6 +134,8 @@ components:
   - name: drop_down_7
     properties:
       items: [None, WOMEN WESTERN, WOMEN ETHNIC, MENSWEAR, KIDS]
+      background: theme:Dark Overlay 1
+      foreground: theme:Dark Overlay 2
     type: DropDown
     layout_properties: {grid_position: 'WQQOXO,RDVQHS'}
     event_bindings: {change: drop_down_7_change}
@@ -120,6 +146,8 @@ components:
   - name: drop_down_8
     properties:
       items: [None, STATIONERY, GIFTING, PAINTINGS, CERAMICS, CRAFT]
+      foreground: theme:Dark Overlay 2
+      background: theme:Dark Overlay 1
     type: DropDown
     layout_properties: {grid_position: 'RGXFYM,ASAJNA'}
     event_bindings: {change: drop_down_8_change}
