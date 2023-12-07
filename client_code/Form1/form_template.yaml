@@ -63,7 +63,7 @@ components:
       items: [None, BATH & BODY, DECOR, BEDDING, KITCHEN]
       include_placeholder: false
       background: theme:Dark Overlay 1
-      foreground: theme:Dark Overlay 2
+      foreground: ''
     type: DropDown
     layout_properties: {grid_position: 'NVIKGV,IOZAGN'}
     event_bindings: {change: drop_down_1_change}
@@ -74,7 +74,7 @@ components:
   - name: drop_down_2
     properties:
       items: [None, CASES, CHARMS, '']
-      foreground: theme:Dark Overlay 2
+      foreground: ''
       background: theme:Dark Overlay 2
     type: DropDown
     layout_properties: {grid_position: 'FHPIBT,ZNCQWA'}
@@ -87,7 +87,7 @@ components:
     properties:
       items: [None, WOMEN ETHNIC, WOMEN WESTERN, MEN]
       background: theme:Dark Overlay 1
-      foreground: theme:Dark Overlay 2
+      foreground: ''
     type: DropDown
     layout_properties: {grid_position: 'QNRUJE,AOKODD'}
     event_bindings: {change: drop_down_3_change}
@@ -98,7 +98,7 @@ components:
   - name: drop_down_4
     properties:
       items: [None, COSMETICS, SKIN, HAIRCARE, FRAGRANCES]
-      foreground: theme:Dark Overlay 2
+      foreground: ''
       background: theme:Dark Overlay 1
     type: DropDown
     layout_properties: {grid_position: 'FKKLDG,XCAXSQ'}
@@ -111,7 +111,7 @@ components:
     properties:
       items: [None, BAGS, SUNGLASSES, HAIR, CAPS & GLOVES]
       background: theme:Dark Overlay 1
-      foreground: theme:Dark Overlay 2
+      foreground: ''
     type: DropDown
     layout_properties: {grid_position: 'CHDNIQ,SHTVYM'}
     event_bindings: {change: drop_down_5_change}
@@ -122,7 +122,7 @@ components:
   - name: drop_down_6
     properties:
       items: [None, WOMEN, MEN]
-      foreground: theme:Dark Overlay 2
+      foreground: ''
       background: theme:Dark Overlay 1
     type: DropDown
     layout_properties: {grid_position: 'JFYFOP,PTDOBN'}
@@ -135,7 +135,7 @@ components:
     properties:
       items: [None, WOMEN WESTERN, WOMEN ETHNIC, MENSWEAR, KIDS]
       background: theme:Dark Overlay 1
-      foreground: theme:Dark Overlay 2
+      foreground: ''
     type: DropDown
     layout_properties: {grid_position: 'WQQOXO,RDVQHS'}
     event_bindings: {change: drop_down_7_change}
@@ -146,7 +146,7 @@ components:
   - name: drop_down_8
     properties:
       items: [None, STATIONERY, GIFTING, PAINTINGS, CERAMICS, CRAFT]
-      foreground: theme:Dark Overlay 2
+      foreground: ''
       background: theme:Dark Overlay 1
     type: DropDown
     layout_properties: {grid_position: 'RGXFYM,ASAJNA'}
