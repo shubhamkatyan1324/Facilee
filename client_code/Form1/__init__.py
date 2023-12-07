@@ -83,7 +83,7 @@ class Form1(Form1Template):
     name = self.text_box_1.text
     instagramHandle = self.text_box_2.text
     home = self.drop_down_1.selected_value
-    phone = self.drop_down_2.selected_value
+    Mobile = self.drop_down_2.selected_value
     jewellery = self.drop_down_3.selected_value
     beauty = self.drop_down_4.selected_value
     accessories = self.drop_down_5.selected_value
@@ -92,7 +92,7 @@ class Form1(Form1Template):
     arts = self.drop_down_8.selected_value
     sports = self.check_box_1.checked
     anime = self.check_box_2.checked
-    anvil.server.call('submit' , name=name,instagramHandle=instagramHandle,home=home,phone=phone,jewellery=jewellery,beauty=beauty,accessories=accessories,footwear=footwear,clothing=clothing,arts=arts,sports=sports,anime=anime)
+    anvil.server.call('submit' , name=name,instagramHandle=instagramHandle,home=home,Mobile=phone,jewellery=jewellery,beauty=beauty,accessories=accessories,footwear=footwear,clothing=clothing,arts=arts,sports=sports,anime=anime)
     Notification("Your Response has been recorded ").show()
     
 

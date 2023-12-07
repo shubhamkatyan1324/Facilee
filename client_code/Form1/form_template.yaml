@@ -14,13 +14,13 @@ components:
     type: Image
     layout_properties: {grid_position: 'PQFFFA,AORGOL'}
   - name: label_1
-    properties: {text: "\"connecting social ventures\"                           \
-        \                    \n  ", italic: true, font: homemade apple, bold: true,
-      icon_align: left_edge, font_size: 18, background: 'theme:On Primary', spacing_below: none}
+    properties: {text: "'CONNECTING SOCIAL VENTURES'                             \
+        \                  \n  ", italic: false, font: Trebuchet MS, bold: true, icon_align: left_edge,
+      font_size: 18, background: 'theme:On Primary', spacing_below: none}
     type: Label
     layout_properties: {grid_position: 'JUQNCW,OAWBFR'}
   - name: label_2
-    properties: {text: Enter your Name, font: Georgia, bold: true, border: '', italic: false}
+    properties: {text: Enter your Name, font: '', bold: true, border: '', italic: false}
     type: Label
     layout_properties: {grid_position: 'CKMWWG,MIEBFC'}
     data_bindings: []
@@ -29,7 +29,7 @@ components:
     type: TextBox
     layout_properties: {grid_position: 'VOLKXM,QLEXYJ'}
   - name: label_3
-    properties: {text: Enter your Instagram handle, font: Georgia, bold: true}
+    properties: {text: Enter your Instagram handle, font: '', bold: true}
     type: Label
     layout_properties: {grid_position: 'IWCXJI,LJVAPM'}
   - name: text_box_2
@@ -43,7 +43,7 @@ components:
     layout_properties: {grid_position: 'KCDDUS,UQUINX', row_background: 'theme:On
         Primary'}
   - name: label_5
-    properties: {text: Home, font: georgia, bold: true}
+    properties: {text: Home, font: '', bold: true}
     type: Label
     layout_properties: {grid_position: 'CMWWNE,FQNNCF'}
   - name: drop_down_1
@@ -54,7 +54,7 @@ components:
     layout_properties: {grid_position: 'NVIKGV,IOZAGN'}
     event_bindings: {change: drop_down_1_change}
   - name: label_6
-    properties: {text: Phone, bold: true}
+    properties: {text: Mobile, bold: true, font: ''}
     type: Label
     layout_properties: {grid_position: 'DNWKMS,XKYJMF'}
   - name: drop_down_2
@@ -64,7 +64,7 @@ components:
     layout_properties: {grid_position: 'FHPIBT,ZNCQWA'}
     event_bindings: {change: drop_down_2_change}
   - name: label_7
-    properties: {text: Jewellery, bold: true}
+    properties: {text: Jewellery, bold: true, font: ''}
     type: Label
     layout_properties: {grid_position: 'HAFFXR,SDPDGZ'}
   - name: drop_down_3
@@ -74,7 +74,7 @@ components:
     layout_properties: {grid_position: 'QNRUJE,AOKODD'}
     event_bindings: {change: drop_down_3_change}
   - name: label_8
-    properties: {text: Beauty, bold: true}
+    properties: {text: Beauty, bold: true, font: ''}
     type: Label
     layout_properties: {grid_position: 'NXPXNM,IDBAGD'}
   - name: drop_down_4
@@ -84,7 +84,7 @@ components:
     layout_properties: {grid_position: 'FKKLDG,XCAXSQ'}
     event_bindings: {change: drop_down_4_change}
   - name: label_9
-    properties: {text: Accessories, bold: true}
+    properties: {text: Accessories, bold: true, font: ''}
     type: Label
     layout_properties: {grid_position: 'MVBOTI,WZEHPT'}
   - name: drop_down_5
@@ -94,7 +94,7 @@ components:
     layout_properties: {grid_position: 'CHDNIQ,SHTVYM'}
     event_bindings: {change: drop_down_5_change}
   - name: label_10
-    properties: {text: Footwear, bold: true}
+    properties: {text: Footwear, bold: true, font: ''}
     type: Label
     layout_properties: {grid_position: 'HBEMBE,MCZPUR'}
   - name: drop_down_6
@@ -104,7 +104,7 @@ components:
     layout_properties: {grid_position: 'JFYFOP,PTDOBN'}
     event_bindings: {change: drop_down_6_change}
   - name: label_11
-    properties: {text: Clothing, bold: true}
+    properties: {text: Clothing, bold: true, font: ''}
     type: Label
     layout_properties: {grid_position: 'RSPJLY,TPOSIK'}
   - name: drop_down_7
@@ -128,7 +128,7 @@ components:
     type: Label
     layout_properties: {grid_position: 'WLIKTZ,PDCCCC'}
   - name: check_box_1
-    properties: {text: 'yes'}
+    properties: {text: 'Yes'}
     type: CheckBox
     layout_properties: {grid_position: 'LIJHTO,QTKCJN'}
     event_bindings: {change: check_box_1_change}
@@ -137,7 +137,7 @@ components:
     type: Label
     layout_properties: {grid_position: 'ZWFVFW,HKYMWS'}
   - name: check_box_2
-    properties: {text: 'yes'}
+    properties: {text: 'Yes'}
     type: CheckBox
     layout_properties: {grid_position: 'YFHXFH,ERMGOR'}
     event_bindings: {change: check_box_2_change}
