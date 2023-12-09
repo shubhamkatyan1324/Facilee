@@ -20,6 +20,10 @@ components:
         Primary', bold: true}
     type: Label
     layout_properties: {grid_position: 'JUQNCW,OAWBFR'}
+  - name: label_18
+    properties: {font: '', text: '           PERSONAL DETAILS', bold: true, font_size: 15}
+    type: Label
+    layout_properties: {grid_position: 'UZTNFG,CMLMFQ', full_width_row: true}
   - name: label_2
     properties: {text: Brand Name, font: '', bold: true, border: '', italic: false}
     type: Label
@@ -30,16 +34,6 @@ components:
       spacing_above: small, border: '', foreground: ''}
     type: TextBox
     layout_properties: {grid_position: 'VOLKXM,QLEXYJ'}
-  - name: label_3
-    properties: {text: Your Social handle, font: '', bold: true}
-    type: Label
-    layout_properties: {grid_position: 'IWCXJI,LJVAPM'}
-  - name: text_box_2
-    properties: {placeholder: '', visible: true, background: 'theme:Dark Overlay 1',
-      foreground: ''}
-    type: TextBox
-    layout_properties: {grid_position: 'DSYKMR,WZOTLC'}
-    event_bindings: {pressed_enter: text_box_2_pressed_enter}
   - name: label_15
     properties: {text: Email, bold: true}
     type: Label
@@ -56,6 +50,30 @@ components:
     properties: {background: 'theme:Dark Overlay 1'}
     type: TextBox
     layout_properties: {grid_position: 'UCKZTN,DTNIST'}
+  - name: label_19
+    properties: {underline: false, bold: true, text: '           BUSINESS DETAILS',
+      font_size: 15}
+    type: Label
+    layout_properties: {grid_position: 'MYBZIZ,YCUPPT', full_width_row: true}
+  - name: label_3
+    properties: {text: Your Social handle, font: '', bold: true}
+    type: Label
+    layout_properties: {grid_position: 'YPPYDP,ODOWSH'}
+  - name: text_box_2
+    properties: {placeholder: '', visible: true, background: 'theme:Dark Overlay 1',
+      foreground: ''}
+    type: TextBox
+    layout_properties: {grid_position: 'QQNIAW,QXHGMF'}
+    event_bindings: {pressed_enter: text_box_2_pressed_enter}
+  - name: label_17
+    properties: {text: Your Website, bold: true}
+    type: Label
+    layout_properties: {grid_position: 'KJXVLN,LIBZEL'}
+  - name: text_box_5
+    properties: {enabled: true, text: (optional), background: 'theme:Dark Overlay
+        1'}
+    type: TextBox
+    layout_properties: {grid_position: 'XSULLJ,CAAKVL'}
   - name: label_4
     properties: {align: center, visible: true, text: SELECT YOUR PRODUCT CATEGORY,
       font_size: 18, font: Trebuchet MS, italic: false, background: 'theme:On Primary',
