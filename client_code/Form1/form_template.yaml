@@ -1,7 +1,8 @@
 is_package: true
 container:
   type: HtmlTemplate
-  properties: {html: '@theme:standard-page.html', background: 'theme:On Primary'}
+  properties: {html: '@theme:standard-page.html', background: 'theme:On Primary',
+    visible: true}
 components:
 - type: ColumnPanel
   properties: {col_widths: '{}', background: '#fffffff'}
@@ -26,8 +27,8 @@ components:
     layout_properties: {grid_position: 'CKMWWG,MIEBFC'}
     data_bindings: []
   - name: text_box_1
-    properties: {placeholder: '', background: 'theme:Dark Overlay 1', visible: true,
-      spacing_above: small, border: '', foreground: ''}
+    properties: {placeholder: '', background: '#f4ebe4', visible: true, spacing_above: small,
+      border: '', foreground: ''}
     type: TextBox
     layout_properties: {grid_position: 'VOLKXM,QLEXYJ'}
   - name: label_15
@@ -35,7 +36,7 @@ components:
     type: Label
     layout_properties: {grid_position: 'XPMGOB,RFYFSM'}
   - name: text_box_3
-    properties: {background: 'theme:Dark Overlay 1', foreground: ''}
+    properties: {background: '#f4ebe4', foreground: ''}
     type: TextBox
     layout_properties: {grid_position: 'XTSBSQ,XIMIJJ'}
   - name: label_16
@@ -43,7 +44,7 @@ components:
     type: Label
     layout_properties: {grid_position: 'IHZBAB,XAVKAL'}
   - name: text_box_4
-    properties: {background: 'theme:Dark Overlay 1'}
+    properties: {background: '#f4ebe4'}
     type: TextBox
     layout_properties: {grid_position: 'UCKZTN,DTNIST'}
   - name: label_3
@@ -51,8 +52,7 @@ components:
     type: Label
     layout_properties: {grid_position: 'YPPYDP,ODOWSH'}
   - name: text_box_2
-    properties: {placeholder: '', visible: true, background: 'theme:Dark Overlay 1',
-      foreground: ''}
+    properties: {placeholder: '', visible: true, background: '#f4ebe4', foreground: ''}
     type: TextBox
     layout_properties: {grid_position: 'QQNIAW,QXHGMF'}
     event_bindings: {pressed_enter: text_box_2_pressed_enter}
@@ -61,7 +61,7 @@ components:
     type: Label
     layout_properties: {grid_position: 'KJXVLN,LIBZEL'}
   - name: text_box_5
-    properties: {enabled: true, text: '', background: 'theme:Dark Overlay 1', placeholder: (optional)}
+    properties: {enabled: true, text: '', background: '#f4ebe4', placeholder: (optional)}
     type: TextBox
     layout_properties: {grid_position: 'XSULLJ,CAAKVL'}
   - name: label_18
@@ -69,7 +69,7 @@ components:
     type: Label
     layout_properties: {grid_position: 'FTOHST,AVCBIP'}
   - name: text_box_6
-    properties: {background: 'theme:Dark Overlay 1'}
+    properties: {background: '#f4ebe4'}
     type: TextBox
     layout_properties: {grid_position: 'NAOBJN,JYEJBW'}
   - name: label_19
@@ -77,7 +77,7 @@ components:
     type: Label
     layout_properties: {grid_position: 'EHHGTO,WUOVJD'}
   - name: text_box_7
-    properties: {background: 'theme:Dark Overlay 1'}
+    properties: {background: '#f4ebe4'}
     type: TextBox
     layout_properties: {grid_position: 'GOESRG,ZGOLZI'}
   - name: label_4
@@ -95,7 +95,7 @@ components:
     properties:
       items: [None, BATH & BODY, DECOR, BEDDING, KITCHEN]
       include_placeholder: false
-      background: theme:Dark Overlay 1
+      background: '#f4ebe4'
       foreground: ''
     type: DropDown
     layout_properties: {grid_position: 'NVIKGV,IOZAGN'}
@@ -108,7 +108,7 @@ components:
     properties:
       items: [None, CASES, CHARMS, '']
       foreground: ''
-      background: theme:Dark Overlay 2
+      background: '#f4ebe4'
     type: DropDown
     layout_properties: {grid_position: 'FHPIBT,ZNCQWA'}
     event_bindings: {change: drop_down_2_change}
@@ -119,7 +119,7 @@ components:
   - name: drop_down_3
     properties:
       items: [None, WOMEN ETHNIC, WOMEN WESTERN, MEN]
-      background: theme:Dark Overlay 1
+      background: '#f4ebe4'
       foreground: ''
     type: DropDown
     layout_properties: {grid_position: 'QNRUJE,AOKODD'}
@@ -132,7 +132,7 @@ components:
     properties:
       items: [None, COSMETICS, SKIN, HAIRCARE, FRAGRANCES]
       foreground: ''
-      background: theme:Dark Overlay 1
+      background: '#f4ebe4'
     type: DropDown
     layout_properties: {grid_position: 'FKKLDG,XCAXSQ'}
     event_bindings: {change: drop_down_4_change}
@@ -143,7 +143,7 @@ components:
   - name: drop_down_5
     properties:
       items: [None, BAGS, SUNGLASSES, HAIR, CAPS & GLOVES]
-      background: theme:Dark Overlay 1
+      background: '#f4ebe4'
       foreground: ''
     type: DropDown
     layout_properties: {grid_position: 'CHDNIQ,SHTVYM'}
@@ -156,7 +156,7 @@ components:
     properties:
       items: [None, WOMEN, MEN]
       foreground: ''
-      background: theme:Dark Overlay 1
+      background: '#f4ebe4'
     type: DropDown
     layout_properties: {grid_position: 'JFYFOP,PTDOBN'}
     event_bindings: {change: drop_down_6_change}
@@ -167,7 +167,7 @@ components:
   - name: drop_down_7
     properties:
       items: [None, WOMEN WESTERN, WOMEN ETHNIC, MENSWEAR, KIDS]
-      background: theme:Dark Overlay 1
+      background: '#f4ebe4'
       foreground: ''
     type: DropDown
     layout_properties: {grid_position: 'WQQOXO,RDVQHS'}
@@ -180,7 +180,7 @@ components:
     properties:
       items: [None, STATIONERY, GIFTING, PAINTINGS, CERAMICS, CRAFT]
       foreground: ''
-      background: theme:Dark Overlay 1
+      background: '#f4ebe4'
     type: DropDown
     layout_properties: {grid_position: 'RGXFYM,ASAJNA'}
     event_bindings: {change: drop_down_8_change}
@@ -204,14 +204,15 @@ components:
     event_bindings: {change: check_box_2_change}
   - name: file_loader_1
     properties: {text: UPLOAD A SAMPLE OF YOUR PRODUCT, bold: true, file_types: '.jpg,
-        .png', background: '#EADDFF', spacing_below: large, foreground: '', role: elevated-button}
+        .png', background: '#f4ebe4', spacing_below: large, foreground: 'theme:On
+        Tertiary Container', role: elevated-button}
     type: FileLoader
     layout_properties: {grid_position: 'EHMVEY,CATMDE', row_background: 'theme:On
         Primary'}
     event_bindings: {change: file_loader_1_change}
   - name: button_1
-    properties: {text: SUBMIT, bold: true, background: 'theme:Primary Container',
-      role: elevated-button}
+    properties: {text: SUBMIT, bold: true, background: '#f4ebe4', role: elevated-button,
+      foreground: 'theme:On Tertiary Container'}
     type: Button
     layout_properties: {grid_position: 'XAKAHJ,BXHIBU', row_background: 'theme:On
         Primary'}
