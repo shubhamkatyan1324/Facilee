@@ -203,7 +203,8 @@ components:
     layout_properties: {grid_position: 'YFHXFH,ERMGOR'}
     event_bindings: {change: check_box_2_change}
   - name: file_loader_1
-    properties: {text: UPLOAD A SAMPLE OF YOUR PRODUCT, bold: true}
+    properties: {text: UPLOAD A SAMPLE OF YOUR PRODUCT, bold: true, file_types: '.jpg,
+        .png'}
     type: FileLoader
     layout_properties: {grid_position: 'EHMVEY,CATMDE', row_background: 'theme:Dark
         Overlay 1'}
