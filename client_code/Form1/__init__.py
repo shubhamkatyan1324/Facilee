@@ -97,8 +97,13 @@ class Form1(Form1Template):
     arts = self.drop_down_8.selected_value
     sports = self.check_box_1.checked
     anime = self.check_box_2.checked
-    anvil.server.call('submit' , BrandName=BrandName,Socialhandle=Socialhandle,Email=Email,Mobilenumber=Mobilenumber,Yourwebsite=Yourwebsite,Started=Started,State=State,home=home,Mobile=Mobile,jewellery=jewellery,beauty=beauty,accessories=accessories,footwear=footwear,clothing=clothing,arts=arts,sports=sports,anime=anime)
+    uploaded_image = self.file_loader_1.file
+    anvil.server.call('submit' , BrandName=BrandName,Socialhandle=Socialhandle,Email=Email,Mobilenumber=Mobilenumber,Yourwebsite=Yourwebsite,Started=Started,State=State,home=home,Mobile=Mobile,jewellery=jewellery,beauty=beauty,accessories=accessories,footwear=footwear,clothing=clothing,arts=arts,sports=sports,anime=anime,uploaded_image=uploaded_image)
     Notification("Your Response has been recorded ").show()
+
+  def file_loader_1_change(self, file, **event_args):
+    """This method is called when a new file is loaded into this FileLoader"""
+    uploaded_image = self.file_loader_1.file
 
   
     

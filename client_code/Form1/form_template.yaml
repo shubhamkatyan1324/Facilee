@@ -4,20 +4,20 @@ container:
   properties: {html: '@theme:standard-page.html', background: 'theme:On Primary'}
 components:
 - type: ColumnPanel
-  properties: {col_widths: '{}', background: 'theme:On Primary'}
+  properties: {col_widths: '{}', background: '#fffffff'}
   name: content_panel
   layout_properties: {slot: default}
   components:
   - name: image_1
     properties: {source: _/theme/facile logo.png, height: 67.19998168945312, display_mode: shrink_to_fit,
-      horizontal_align: left, vertical_align: center, spacing_below: small}
+      horizontal_align: left, vertical_align: center, spacing_below: small, background: '#fffffff'}
     type: Image
     layout_properties: {grid_position: 'PQFFFA,AORGOL'}
   - name: label_1
     properties: {text: "'CONNECTING SOCIAL VENTURES'                             \
         \                  \n  ", font_size: 18, font: Trebuchet MS, spacing_above: small,
-      icon_align: left_edge, spacing_below: none, italic: false, background: 'theme:On
-        Primary', bold: true}
+      icon_align: left_edge, spacing_below: none, italic: false, background: '#fffffff',
+      bold: true}
     type: Label
     layout_properties: {grid_position: 'JUQNCW,OAWBFR'}
   - name: label_2
@@ -204,12 +204,14 @@ components:
     event_bindings: {change: check_box_2_change}
   - name: file_loader_1
     properties: {text: UPLOAD A SAMPLE OF YOUR PRODUCT, bold: true, file_types: '.jpg,
-        .png'}
+        .png', background: '#EADDFF', spacing_below: large, foreground: '', role: elevated-button}
     type: FileLoader
-    layout_properties: {grid_position: 'EHMVEY,CATMDE', row_background: 'theme:Dark
-        Overlay 1'}
+    layout_properties: {grid_position: 'EHMVEY,CATMDE', row_background: 'theme:On
+        Primary'}
+    event_bindings: {change: file_loader_1_change}
   - name: button_1
-    properties: {text: SUBMIT, bold: true, background: 'theme:Primary Container'}
+    properties: {text: SUBMIT, bold: true, background: 'theme:Primary Container',
+      role: elevated-button}
     type: Button
     layout_properties: {grid_position: 'XAKAHJ,BXHIBU', row_background: 'theme:On
         Primary'}
