@@ -83,8 +83,10 @@ class Form1(Form1Template):
     BrandName = self.text_box_1.text
     Socialhandle = self.text_box_2.text
     Email = self.text_box_3.text
-    Phonenumber = int(self.text_box_4.text)
+    Mobilenumber = int(self.text_box_4.text)
     Yourwebsite = self.text_box_5.text
+    Started = int(self.text_box_6.text)
+    State = self.text_box_7.text
     home = self.drop_down_1.selected_value
     Mobile = self.drop_down_2.selected_value
     jewellery = self.drop_down_3.selected_value
@@ -95,7 +97,7 @@ class Form1(Form1Template):
     arts = self.drop_down_8.selected_value
     sports = self.check_box_1.checked
     anime = self.check_box_2.checked
-    anvil.server.call('submit' , BrandName=BrandName,Socialhandle=Socialhandle,Email=Email,Phonenumber=Phonenumber,Yourwebsite=Yourwebsite,home=home,Mobile=Mobile,jewellery=jewellery,beauty=beauty,accessories=accessories,footwear=footwear,clothing=clothing,arts=arts,sports=sports,anime=anime)
+    anvil.server.call('submit' , BrandName=BrandName,Socialhandle=Socialhandle,Email=Email,Mobilenumber=Mobilenumber,Yourwebsite=Yourwebsite,Started=Started,State=State,home=home,Mobile=Mobile,jewellery=jewellery,beauty=beauty,accessories=accessories,footwear=footwear,clothing=clothing,arts=arts,sports=sports,anime=anime)
     Notification("Your Response has been recorded ").show()
 
   
