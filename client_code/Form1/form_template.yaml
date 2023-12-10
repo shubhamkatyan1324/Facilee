@@ -2,11 +2,11 @@ is_package: true
 container:
   type: HtmlTemplate
   properties: {html: '@theme:standard-page.html', background: 'theme:On Primary',
-    visible: true}
+    visible: true, role: null}
 components:
 - type: ColumnPanel
   properties: {col_widths: '{}', background: '#fffffff', spacing_above: none, spacing_below: none,
-    col_spacing: small}
+    col_spacing: small, role: null}
   name: content_panel
   layout_properties: {slot: default}
   components:
