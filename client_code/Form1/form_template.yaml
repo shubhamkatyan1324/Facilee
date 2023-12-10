@@ -73,7 +73,7 @@ components:
     type: TextBox
     layout_properties: {grid_position: 'NAOBJN,JYEJBW'}
   - name: label_19
-    properties: {text: 'Which State are you based in?', bold: true}
+    properties: {text: 'Which State/Country are you based in?', bold: true}
     type: Label
     layout_properties: {grid_position: 'EHHGTO,WUOVJD'}
   - name: text_box_7
@@ -202,8 +202,14 @@ components:
     type: CheckBox
     layout_properties: {grid_position: 'YFHXFH,ERMGOR'}
     event_bindings: {change: check_box_2_change}
+  - name: file_loader_1
+    properties: {text: UPLOAD A SAMPLE OF YOUR PRODUCT, bold: true}
+    type: FileLoader
+    layout_properties: {grid_position: 'EHMVEY,CATMDE', row_background: 'theme:Dark
+        Overlay 1'}
   - name: button_1
     properties: {text: SUBMIT, bold: true, background: 'theme:Primary Container'}
     type: Button
-    layout_properties: {grid_position: 'XAKAHJ,BXHIBU'}
+    layout_properties: {grid_position: 'XAKAHJ,BXHIBU', row_background: 'theme:On
+        Primary'}
     event_bindings: {click: button_1_click}
