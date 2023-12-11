@@ -11,8 +11,8 @@ runtime_options: {version: 2, client_version: '3', server_version: python3-sandb
 startup_form: Form1
 db_schema:
   table_1:
-    title: Table 1
     client: none
     server: full
     columns: []
+    title: Table 1
 renamed: true
