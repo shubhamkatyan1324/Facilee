@@ -10,9 +10,60 @@ runtime_options: {version: 2, client_version: '3', server_version: python3-sandb
   server_spec: null}
 startup_form: Form1
 db_schema:
-  table_1:
+  facile:
     client: none
     server: full
-    columns: []
-    title: Table 1
+    columns:
+    - name: BrandName
+      admin_ui: {width: 200, order: 0}
+      type: string
+    - name: Socialhandle
+      admin_ui: {width: 200, order: 1}
+      type: string
+    - name: Email
+      admin_ui: {width: 200, order: 2}
+      type: string
+    - name: Mobilenumber
+      admin_ui: {width: 200, order: 3}
+      type: number
+    - name: Yourwebsite
+      admin_ui: {width: 200, order: 4}
+      type: string
+    - name: Started
+      admin_ui: {width: 200, order: 5}
+      type: number
+    - name: State
+      admin_ui: {width: 200, order: 6}
+      type: string
+    - name: home
+      admin_ui: {width: 200, order: 7}
+      type: simpleObject
+    - name: jewellery
+      admin_ui: {width: 200, order: 8}
+      type: simpleObject
+    - name: beauty
+      admin_ui: {width: 200, order: 9}
+      type: simpleObject
+    - name: accessories
+      admin_ui: {width: 200, order: 10}
+      type: simpleObject
+    - name: footwear
+      admin_ui: {width: 200, order: 11}
+      type: simpleObject
+    - name: clothing
+      admin_ui: {width: 200, order: 12}
+      type: simpleObject
+    - name: arts
+      admin_ui: {width: 200, order: 13}
+      type: simpleObject
+    - name: sports
+      admin_ui: {width: 200, order: 14}
+      type: bool
+    - name: anime
+      admin_ui: {width: 200, order: 15}
+      type: bool
+    - name: uploaded_image
+      admin_ui: {width: 200, order: 16}
+      type: media
+    title: FACILE
 renamed: true
